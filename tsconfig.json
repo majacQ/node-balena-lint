@@ -1,16 +1,18 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
+  <<<<<<< es2020-build-c4946d0fdd30dbf97177d2162c6057725cac8304
 		"target": "es2020",
+  =======
+		"target": "es2019",
+  >>>>>>> master
 		"outDir": "build",
-		"noImplicitAny": true,
+		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"preserveConstEnums": true,
 		"removeComments": true,
 		"sourceMap": true,
-		"strictNullChecks": true,
-		"allowJs": true,
 		"moduleResolution": "node",
 		"baseUrl": ".",
 	},
