@@ -1,7 +1,11 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
+  <<<<<<< es2020-build-c4946d0fdd30dbf97177d2162c6057725cac8304
+		"target": "es2020",
+  =======
 		"target": "es2019",
+  >>>>>>> master
 		"outDir": "build",
 		"strict": true,
 		"noUnusedLocals": true,
