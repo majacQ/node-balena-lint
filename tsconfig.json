@@ -1,8 +1,7 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
-		"target": "es2019",
-		"outDir": "build",
+		"target": "es2023",
 		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
@@ -11,8 +10,13 @@
 		"sourceMap": true,
 		"moduleResolution": "node",
 		"baseUrl": ".",
+		"skipLibCheck": true,
+		"allowJs": true
 	},
 	"include": [
-		"./lib/**/*.ts"
+		"./lib/**/*",
+		"config/eslint.config.js",
+		"./test/**/*.ts",
+		"eslint.config.js"
 	]
 }
